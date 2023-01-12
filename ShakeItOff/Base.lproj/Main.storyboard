@@ -22,11 +22,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByT-ff-2Ut">
+                                <rect key="frame" x="162.66666666666666" y="493" width="68" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Reset"/>
+                                <connections>
+                                    <action selector="didPressReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLU-hO-O0J"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="J7Z-VP-MVO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hhm-TP-fLm"/>
+                            <constraint firstItem="ByT-ff-2Ut" firstAttribute="top" secondItem="J7Z-VP-MVO" secondAttribute="bottom" constant="31" id="ig7-92-stl"/>
+                            <constraint firstItem="ByT-ff-2Ut" firstAttribute="centerX" secondItem="J7Z-VP-MVO" secondAttribute="centerX" id="qyY-PA-nl4"/>
                             <constraint firstItem="J7Z-VP-MVO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wi0-Zf-vgN"/>
                         </constraints>
                     </view>

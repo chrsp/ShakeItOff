@@ -16,6 +16,9 @@
 		34EA5F8F296F2D9800BEED10 /* ShakeItOffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5F8E296F2D9800BEED10 /* ShakeItOffTests.swift */; };
 		34EA5F99296F2D9800BEED10 /* ShakeItOffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5F98296F2D9800BEED10 /* ShakeItOffUITests.swift */; };
 		34EA5F9B296F2D9800BEED10 /* ShakeItOffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5F9A296F2D9800BEED10 /* ShakeItOffUITestsLaunchTests.swift */; };
+		34EA5FB02970625600BEED10 /* Point3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5FAF2970625600BEED10 /* Point3D.swift */; };
+		34EA5FB22970627800BEED10 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5FB12970627800BEED10 /* UIDevice+Extension.swift */; };
+		34EA5FB52970635900BEED10 /* MotionLoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5FB42970635900BEED10 /* MotionLoadingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		34EA5F94296F2D9800BEED10 /* ShakeItOffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeItOffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EA5F98296F2D9800BEED10 /* ShakeItOffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeItOffUITests.swift; sourceTree = "<group>"; };
 		34EA5F9A296F2D9800BEED10 /* ShakeItOffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeItOffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34EA5FAF2970625600BEED10 /* Point3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point3D.swift; sourceTree = "<group>"; };
+		34EA5FB12970627800BEED10 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		34EA5FB42970635900BEED10 /* MotionLoadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionLoadingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				34EA5F80296F2D9700BEED10 /* Assets.xcassets */,
 				34EA5F82296F2D9700BEED10 /* LaunchScreen.storyboard */,
 				34EA5F85296F2D9700BEED10 /* Info.plist */,
+				34EA5FAF2970625600BEED10 /* Point3D.swift */,
+				34EA5FB12970627800BEED10 /* UIDevice+Extension.swift */,
+				34EA5FB42970635900BEED10 /* MotionLoadingController.swift */,
 			);
 			path = ShakeItOff;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34EA5F7C296F2D9600BEED10 /* ViewController.swift in Sources */,
+				34EA5FB02970625600BEED10 /* Point3D.swift in Sources */,
+				34EA5FB52970635900BEED10 /* MotionLoadingController.swift in Sources */,
 				34EA5F78296F2D9600BEED10 /* AppDelegate.swift in Sources */,
+				34EA5FB22970627800BEED10 /* UIDevice+Extension.swift in Sources */,
 				34EA5F7A296F2D9600BEED10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
