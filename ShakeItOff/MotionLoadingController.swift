@@ -1,3 +1,9 @@
+//
+//  MotionLoadingController.swift
+//  ShakeItOff
+//
+//  Created by Charles Prado on 11/01/2023.
+//
 import Foundation
 import CoreMotion
 
@@ -5,12 +11,6 @@ protocol MotionLoadingDelegate: AnyObject {
     func didIncrementProgress(in progressIncrement: Int)
 }
 
-//
-//  MotionLoadingController.swift
-//  ShakeItOff
-//
-//  Created by Charles Prado on 11/01/2023.
-//
 class MotionLoadingController {
     
     weak var delegate: MotionLoadingDelegate?
