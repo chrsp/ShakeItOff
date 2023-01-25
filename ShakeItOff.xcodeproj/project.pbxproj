@@ -19,6 +19,8 @@
 		34EA5FB02970625600BEED10 /* Point3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5FAF2970625600BEED10 /* Point3D.swift */; };
 		34EA5FB22970627800BEED10 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5FB12970627800BEED10 /* UIDevice+Extension.swift */; };
 		34EA5FB52970635900BEED10 /* MotionLoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5FB42970635900BEED10 /* MotionLoadingController.swift */; };
+		34EA5FB72971905E00BEED10 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5FB62971905E00BEED10 /* DropView.swift */; };
+		34EA5FB92971938700BEED10 /* UIViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA5FB82971938700BEED10 /* UIViewPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		34EA5FAF2970625600BEED10 /* Point3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point3D.swift; sourceTree = "<group>"; };
 		34EA5FB12970627800BEED10 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		34EA5FB42970635900BEED10 /* MotionLoadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionLoadingController.swift; sourceTree = "<group>"; };
+		34EA5FB62971905E00BEED10 /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		34EA5FB82971938700BEED10 /* UIViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				34EA5FAF2970625600BEED10 /* Point3D.swift */,
 				34EA5FB12970627800BEED10 /* UIDevice+Extension.swift */,
 				34EA5FB42970635900BEED10 /* MotionLoadingController.swift */,
+				34EA5FB62971905E00BEED10 /* DropView.swift */,
+				34EA5FB82971938700BEED10 /* UIViewPreview.swift */,
 			);
 			path = ShakeItOff;
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34EA5F7C296F2D9600BEED10 /* ViewController.swift in Sources */,
+				34EA5FB92971938700BEED10 /* UIViewPreview.swift in Sources */,
 				34EA5FB02970625600BEED10 /* Point3D.swift in Sources */,
 				34EA5FB52970635900BEED10 /* MotionLoadingController.swift in Sources */,
+				34EA5FB72971905E00BEED10 /* DropView.swift in Sources */,
 				34EA5F78296F2D9600BEED10 /* AppDelegate.swift in Sources */,
 				34EA5FB22970627800BEED10 /* UIDevice+Extension.swift in Sources */,
 				34EA5F7A296F2D9600BEED10 /* SceneDelegate.swift in Sources */,
